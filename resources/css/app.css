@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+}
+.top-menu {
+  width: 60vw;
+}
+.top-menu ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.top-menu li {
+  font-weight: bold;
+  margin: 0 0px;
+}
+.top-menu li a {
+  border: 0px solid white;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
